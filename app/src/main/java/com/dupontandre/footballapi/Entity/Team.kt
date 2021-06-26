@@ -10,8 +10,6 @@ data class Team (
     val nombreEquipo : String,
     @ColumnInfo(name = "estadio")
     val estadio : String,
-    @ColumnInfo(name = "puntaje")
-    val puntaje : Int,
     // FK
     val nombreCampeonato : String
 )

@@ -11,3 +11,4 @@ data class Competition (
     @ColumnInfo(name = "temporadasDisponibles")
     val temporadasDisponibles : Int
     )
+

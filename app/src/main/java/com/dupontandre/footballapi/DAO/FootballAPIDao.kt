@@ -1,3 +1,4 @@
+
 package com.dupontandre.footballapi.DAO
 
 import androidx.room.*
@@ -16,9 +17,9 @@ interface FootballAPIDao {
     @Transaction
     @Query("SELECT * FROM Competition")
     suspend fun selectAllCompetitions() : List<Competition>
-
+/*
     @Transaction
     @Query("SELECT * FROM Team WHERE nombreCampeonato = :nombreCampeonato")
     suspend fun selectAllTeamsByCompetitionId(nombreCampeonato : String) : List<CompetitionTeam>
-
+*/
 }
